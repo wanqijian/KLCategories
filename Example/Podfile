@@ -1,4 +1,5 @@
 use_frameworks!
+platform :ios, '9.0'
 
 target 'KKCategories_Example' do
   pod 'KKCategories', :path => '../'
@@ -11,4 +12,5 @@ target 'KKCategories_Example' do
     pod 'FBSnapshotTestCase'
     pod 'Expecta+Snapshots'
   end
+  
 end

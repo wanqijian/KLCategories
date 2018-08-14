@@ -20,9 +20,13 @@
 		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
-		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		B72694662122CB100014BDD6 /* KKUser.m in Sources */ = {isa = PBXBuildFile; fileRef = B72694652122CB100014BDD6 /* KKUser.m */; };
+		B72694762122CD6A0014BDD6 /* NSObject+KKExtend.m in Sources */ = {isa = PBXBuildFile; fileRef = B726946E2122CD680014BDD6 /* NSObject+KKExtend.m */; };
+		B72694772122CD6A0014BDD6 /* UIView+KKExtend.m in Sources */ = {isa = PBXBuildFile; fileRef = B72694732122CD680014BDD6 /* UIView+KKExtend.m */; };
+		B72694792122E3BA0014BDD6 /* KKTestObjectTest.m in Sources */ = {isa = PBXBuildFile; fileRef = B72694782122E3BA0014BDD6 /* KKTestObjectTest.m */; };
+		B726947B2122E5580014BDD6 /* KKTestObjectTest2.m in Sources */ = {isa = PBXBuildFile; fileRef = B726947A2122E5580014BDD6 /* KKTestObjectTest2.m */; };
 		F6BF63C38FBD33ACCCC9AE79 /* Pods_KKCategories_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4ADF939117FC3B943046791 /* Pods_KKCategories_Example.framework */; };
 /* End PBXBuildFile section */
 
@@ -37,9 +41,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1651FF52E37D665A94B6300B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		1E4F1FACF5D54E7699D6060A /* KKCategories.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = KKCategories.podspec; path = ../KKCategories.podspec; sourceTree = "<group>"; };
-		42A46C9ED22415B74B1FAEDF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		1651FF52E37D665A94B6300B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		1E4F1FACF5D54E7699D6060A /* KKCategories.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = KKCategories.podspec; path = ../KKCategories.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		42A46C9ED22415B74B1FAEDF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		5125596648FC5C477432A064 /* Pods_KKCategories_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KKCategories_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* KKCategories_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KKCategories_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -58,12 +62,21 @@
 		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		6003F5B7195388D20070C39A /* Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tests-Info.plist"; sourceTree = "<group>"; };
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		631B008DA87DF142B8A4F34F /* Pods-KKCategories_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KKCategories_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KKCategories_Tests/Pods-KKCategories_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		937FD5B38CD44BFEA0012393 /* Pods-KKCategories_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KKCategories_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KKCategories_Example/Pods-KKCategories_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		B72694642122CB100014BDD6 /* KKUser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KKUser.h; sourceTree = "<group>"; };
+		B72694652122CB100014BDD6 /* KKUser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KKUser.m; sourceTree = "<group>"; };
+		B726946D2122CD680014BDD6 /* NSObject+KKExtend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+KKExtend.h"; sourceTree = "<group>"; };
+		B726946E2122CD680014BDD6 /* NSObject+KKExtend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+KKExtend.m"; sourceTree = "<group>"; };
+		B726946F2122CD680014BDD6 /* KKCategories.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKCategories.h; sourceTree = "<group>"; };
+		B72694702122CD680014BDD6 /* KKCategoriesMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKCategoriesMacro.h; sourceTree = "<group>"; };
+		B72694722122CD680014BDD6 /* UIView+KKExtend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+KKExtend.h"; sourceTree = "<group>"; };
+		B72694732122CD680014BDD6 /* UIView+KKExtend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+KKExtend.m"; sourceTree = "<group>"; };
+		B72694782122E3BA0014BDD6 /* KKTestObjectTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KKTestObjectTest.m; sourceTree = "<group>"; };
+		B726947A2122E5580014BDD6 /* KKTestObjectTest2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KKTestObjectTest2.m; sourceTree = "<group>"; };
 		E4ADF939117FC3B943046791 /* Pods_KKCategories_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KKCategories_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F56A33FCD261B2A2C8E6BE37 /* Pods-KKCategories_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KKCategories_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-KKCategories_Example/Pods-KKCategories_Example.release.xcconfig"; sourceTree = "<group>"; };
 		F83360D70CC554E611C026DA /* Pods-KKCategories_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KKCategories_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-KKCategories_Tests/Pods-KKCategories_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -109,6 +122,7 @@
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
+				B72694672122CD680014BDD6 /* KKCategories */,
 				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
 				6003F593195388D20070C39A /* Example for KKCategories */,
 				6003F5B5195388D20070C39A /* Tests */,
@@ -143,6 +157,7 @@
 		6003F593195388D20070C39A /* Example for KKCategories */ = {
 			isa = PBXGroup;
 			children = (
+				B72694632122CAF70014BDD6 /* Model */,
 				6003F59C195388D20070C39A /* KKAppDelegate.h */,
 				6003F59D195388D20070C39A /* KKAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
@@ -170,8 +185,9 @@
 		6003F5B5195388D20070C39A /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				6003F5BB195388D20070C39A /* Tests.m */,
 				6003F5B6195388D20070C39A /* Supporting Files */,
+				B72694782122E3BA0014BDD6 /* KKTestObjectTest.m */,
+				B726947A2122E5580014BDD6 /* KKTestObjectTest2.m */,
 			);
 			path = Tests;
 			sourceTree = "<group>";
@@ -194,6 +210,61 @@
 				42A46C9ED22415B74B1FAEDF /* LICENSE */,
 			);
 			name = "Podspec Metadata";
+			sourceTree = "<group>";
+		};
+		B72694632122CAF70014BDD6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B72694642122CB100014BDD6 /* KKUser.h */,
+				B72694652122CB100014BDD6 /* KKUser.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		B72694672122CD680014BDD6 /* KKCategories */ = {
+			isa = PBXGroup;
+			children = (
+				B72694682122CD680014BDD6 /* Assets */,
+				B726946A2122CD680014BDD6 /* Classes */,
+			);
+			name = KKCategories;
+			path = ../KKCategories;
+			sourceTree = "<group>";
+		};
+		B72694682122CD680014BDD6 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		B726946A2122CD680014BDD6 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				B726946C2122CD680014BDD6 /* Foundation */,
+				B726946F2122CD680014BDD6 /* KKCategories.h */,
+				B72694702122CD680014BDD6 /* KKCategoriesMacro.h */,
+				B72694712122CD680014BDD6 /* UIKit */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		B726946C2122CD680014BDD6 /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				B726946D2122CD680014BDD6 /* NSObject+KKExtend.h */,
+				B726946E2122CD680014BDD6 /* NSObject+KKExtend.m */,
+			);
+			path = Foundation;
+			sourceTree = "<group>";
+		};
+		B72694712122CD680014BDD6 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				B72694722122CD680014BDD6 /* UIView+KKExtend.h */,
+				B72694732122CD680014BDD6 /* UIView+KKExtend.m */,
+			);
+			path = UIKit;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -248,7 +319,11 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "wanqijian@icloud.com";
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = SF598P9PL5;
+					};
 					6003F5AD195388D20070C39A = {
+						DevelopmentTeam = SF598P9PL5;
 						TestTargetID = 6003F589195388D20070C39A;
 					};
 				};
@@ -380,8 +455,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B72694772122CD6A0014BDD6 /* UIView+KKExtend.m in Sources */,
 				6003F59E195388D20070C39A /* KKAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* KKViewController.m in Sources */,
+				B72694662122CB100014BDD6 /* KKUser.m in Sources */,
+				B72694762122CD6A0014BDD6 /* NSObject+KKExtend.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -390,7 +468,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6003F5BC195388D20070C39A /* Tests.m in Sources */,
+				B72694792122E3BA0014BDD6 /* KKTestObjectTest.m in Sources */,
+				B726947B2122E5580014BDD6 /* KKTestObjectTest2.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -510,11 +589,12 @@
 			baseConfigurationReference = 937FD5B38CD44BFEA0012393 /* Pods-KKCategories_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = SF598P9PL5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "KKCategories/KKCategories-Prefix.pch";
 				INFOPLIST_FILE = "KKCategories/KKCategories-Info.plist";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = "me.wanq.demo.KKCategories-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -525,11 +605,12 @@
 			baseConfigurationReference = F56A33FCD261B2A2C8E6BE37 /* Pods-KKCategories_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = SF598P9PL5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "KKCategories/KKCategories-Prefix.pch";
 				INFOPLIST_FILE = "KKCategories/KKCategories-Info.plist";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = "me.wanq.demo.KKCategories-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -540,6 +621,8 @@
 			baseConfigurationReference = 631B008DA87DF142B8A4F34F /* Pods-KKCategories_Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = SF598P9PL5;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = "$(inherited)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -564,6 +647,8 @@
 			baseConfigurationReference = F83360D70CC554E611C026DA /* Pods-KKCategories_Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = SF598P9PL5;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = "$(inherited)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",

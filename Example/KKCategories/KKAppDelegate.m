@@ -7,12 +7,23 @@
 //
 
 #import "KKAppDelegate.h"
+#import "KKUser.h"
+#import "KKCategories.h"
 
 @implementation KKAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    
+    KKUser *user = [KKUser new];
+    user.name = @"test";
+    user.nick = @"lisi";
+    NSLog(@"%@", [user properties]);
+    
+    [KKUser printMethods];
+    
+    
     return YES;
 }
 
