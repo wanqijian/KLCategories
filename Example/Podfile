@@ -1,0 +1,14 @@
+use_frameworks!
+
+target 'KKCategories_Example' do
+  pod 'KKCategories', :path => '../'
+
+  target 'KKCategories_Tests' do
+    inherit! :search_paths
+
+    pod 'Specta'
+    pod 'Expecta'
+    pod 'FBSnapshotTestCase'
+    pod 'Expecta+Snapshots'
+  end
+end
