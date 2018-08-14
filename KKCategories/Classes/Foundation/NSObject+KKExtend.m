@@ -12,7 +12,7 @@
 
 #pragma mark - Object properties
 
-- (NSDictionary *)properties {
+- (NSDictionary *)kk_properties {
     unsigned int propCount, index;
     objc_objectptr_t *properties_t = (objc_objectptr_t *)class_copyPropertyList([self class], &propCount);
     NSMutableDictionary *resultDictionary = [[NSMutableDictionary alloc] init];
@@ -28,7 +28,7 @@
 
 #pragma mark - Object Class Methods
 
-+ (void)printMethods {
++ (void)kk_printMethods {
     unsigned int methodCount, index;
     Method *methodList_t = class_copyMethodList(self, &methodCount);
     for (index=0; index<methodCount; index++) {

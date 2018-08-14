@@ -11,10 +11,10 @@
 
 #pragma mark - Object properties
 
-- (NSDictionary *)properties;
+- (NSDictionary *)kk_properties;
 
 #pragma mark - Object Class Methods
 
-+ (void)printMethods;
++ (void)kk_printMethods;
 
 @end
